@@ -61,7 +61,7 @@ The generated SDK also contain one or more Tests, which are contained in the Tes
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -69,8 +69,8 @@ The following parameters are configurable for the API Client:
 |  --- | --- | --- |
 | `Environment` | Environment | The API environment. <br> **Default: `Environment.Production`** |
 | `Timeout` | `TimeSpan` | Http client timeout.<br>*Default*: `TimeSpan.FromSeconds(100)` |
-| `CustomHeaderAuthenticationCredentials` | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/auth/custom-header-signature.md) | The Credentials Setter for Custom Header Signature |
-| `ImplicitAuth` | [`ImplicitAuth`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/auth/oauth-2-implicit-grant.md) | The Credentials Setter for OAuth 2 Implicit Grant |
+| `CustomHeaderAuthenticationCredentials` | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/auth/custom-header-signature.md) | The Credentials Setter for Custom Header Signature |
+| `ImplicitAuth` | [`ImplicitAuth`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/auth/oauth-2-implicit-grant.md) | The Credentials Setter for OAuth 2 Implicit Grant |
 
 The API client can be initialized as follows:
 
@@ -102,24 +102,24 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`Custom Header Signature`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/auth/custom-header-signature.md)
-* [`OAuth 2 Implicit Grant`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/auth/oauth-2-implicit-grant.md)
+* [`Custom Header Signature`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/auth/custom-header-signature.md)
+* [`OAuth 2 Implicit Grant`](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/auth/oauth-2-implicit-grant.md)
 
 ## List of APIs
 
-* [Pet](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/controllers/pet.md)
-* [Store](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/controllers/store.md)
-* [User](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/controllers/user.md)
+* [Pet](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/controllers/pet.md)
+* [Store](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/controllers/store.md)
+* [User](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/controllers/user.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/utility-classes.md)
-* [HttpRequest](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/http-request.md)
-* [HttpResponse](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/http-string-response.md)
-* [HttpContext](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/http-context.md)
-* [HttpClientConfiguration](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/http-client-configuration.md)
-* [HttpClientConfiguration Builder](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/http-client-configuration-builder.md)
-* [IAuthManager](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/i-auth-manager.md)
-* [ApiException](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.0/doc/api-exception.md)
+* [Utility Classes](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/http-context.md)
+* [HttpClientConfiguration](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/http-client-configuration.md)
+* [HttpClientConfiguration Builder](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/http-client-configuration-builder.md)
+* [IAuthManager](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/i-auth-manager.md)
+* [ApiException](https://www.github.com/sohaibtariq/petstore-codegenignore-dotnet-sdk/tree/1.0.1/doc/api-exception.md)
 
